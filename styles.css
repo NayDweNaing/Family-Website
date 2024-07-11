@@ -1,0 +1,125 @@
+
+:root{
+    --Dark-Gray: #333333;
+    --Medium-Gray: #666666;
+    --Light-Gray: #CCCCCC;
+    --Very-Light-Gray: #F2F2F2;
+}
+nav{
+    border :1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    background-color: #333333;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #CCCCCC;
+}
+nav div{
+    display: flex;
+    gap: 40px;
+}
+nav div a:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:#CCCCCC;
+}
+a :hover{
+    color: red;
+
+}
+#main{
+    font-weight:700;
+    font-size: 20px;
+    font-optical-sizing: auto;
+}
+#gpph{
+    width: 500px;
+    border: 10px rgb(60, 58, 58) solid;
+    border-left: #F2F2F2;
+    border-top: #F2F2F2;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+#asdf{
+    font-weight: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+footer{
+    border :1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    background-color: #333333; 
+    margin-top: 20px;
+    font-size: 15px;
+}
+.inside{
+    display: flex;
+    justify-content: space-between;
+}
+.inside h2{
+    padding-top: 50px;
+    padding-right: 100px;
+}
+#lilicon{
+    width: 25px;
+    height: 25px;
+}
+footer > div{
+    display: flex;
+    gap: 20px;
+}
+#maintext > h1{
+    bottom: 50px;
+}
+#box{
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    margin-right: 150px;
+    padding-left: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #333333;
+    color: white;
+}
+.maintitle{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.maintitle > h1{
+    text-align: center;
+   }
+#juju{
+    width: 300px;
+
+}
+#lhs{
+    padding-left: 200px;
+}
+#mamaimg{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 500px;
+}
+#mamatable{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
